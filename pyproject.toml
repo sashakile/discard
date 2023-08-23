@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "discard"
+version = "0.1.0"
+description = "Discard is a funny way to accumulate things that you might use some day"
+authors = ["sashakile"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+ipython = "^8.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
